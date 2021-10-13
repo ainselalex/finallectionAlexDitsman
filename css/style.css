@@ -113,6 +113,10 @@
     max-width: 350px;
     width: 100%;
     height: 400px;
+    transition: 1s;
+}
+.image1:hover{
+    transform: scale(1.2);
 }
 .image-text{
     margin-top: 5px;
@@ -180,4 +184,34 @@
     color: #03d7fc;
     font-size: 30px;
     text-shadow: #03d7fc;
+}
+.end-page{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end-paragraph{
+    margin-left: 220px;
+}
+.footer-paragraph2{
+    font-size: 17px;
+    color: #4e5ba3;
+    font-family: 'Londrina Solid', cursive;
+}
+.span{
+    font-size: 18px;
+    color: #a103fc;
+    font-family: 'Lobster Two', cursive;
+}
+.footer-logo{
+    margin-right: 200px;
+}
+.logo-foot{
+    transition: 1s;
+}
+.logo-foot:hover{
+    transform: rotate(360deg);
 }
