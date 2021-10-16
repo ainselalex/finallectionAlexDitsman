@@ -77,4 +77,8 @@
         flex-direction: column;
         background-repeat: repeat;
     }
+    }
+    .footer2{
+        background-repeat: repeat;
+    }
 }

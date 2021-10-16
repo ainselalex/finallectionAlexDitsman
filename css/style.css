@@ -217,3 +217,89 @@
 .logo-foot:hover{
     transform: rotate(360deg);
 }
+/* second page */
+.page2-section{
+    max-width: 1170px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ach-image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.ach-logo{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+.ach-logo:hover{
+    transform: scale(1.3);
+}
+.ach-p{
+    font-size: 22px;
+    font-family: 'Libre Baskerville', serif;
+    color: #4f68e3;
+}
+.page2-content{
+    margin: 0 auto;
+    
+}
+.page2-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;
+}
+.page2-par{
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;
+}
+.page2-title2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.page2-par2{
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;
+}
+.page2-map{
+    display: flex;
+}
+.map-image{
+    text-align: left;
+}
+.image-map{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.map-text{
+    width: 100%;
+}
+.map-paragraph{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+}
+.map-title{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.footer2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSSdwsGak4tIRMbHAPTUXieEq6ExUGb0cBe92ch-2-aFDi9nhO5QEr3qQQmCgSXaEs5Y&usqp=CAU);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
