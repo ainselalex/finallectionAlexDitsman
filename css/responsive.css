@@ -8,6 +8,18 @@
         opacity: 1;
         display: none;
     }
+    .games{
+        max-width: 900px;
+        width: 100%;
+    }
+    .games-images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cover-resolution{
+        width: 200px;
+        height: 300px;
+    }
 }
 
 @media (max-width: 800px){
