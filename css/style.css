@@ -315,6 +315,7 @@
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .games-images{
@@ -327,6 +328,10 @@
     max-width: 250px;
     width: 100%;
     height: 350px;
+    transition: 1s;
+}
+.cover-resolution:hover{
+    transform: scale(1.1);
 }
 .games-titles{
     font-size: 18px;
