@@ -20,7 +20,13 @@
         width: 200px;
         height: 300px;
     }
+    .movie-section{
+        max-width: 900px;
+        width: 100%;
+        height: auto;
+    }
 }
+
 
 @media (max-width: 800px){
     .title1{
@@ -79,6 +85,20 @@
         left: 0px;
         bottom: 0px;
     }
+    .movie-section{
+        max-width: 650px;
+        width: 100%;
+        height: auto;
+    }
+    .movie-descritption{
+        max-width: 550px;
+        width: 100%;
+        height: auto;
+    }
+    .movie-paragraph{
+        font-size: 11px;
+    }
+
 }
 
 @media (max-width: 500px){
@@ -93,4 +113,17 @@
     .footer2{
         background-repeat: repeat;
     }
+    /* .movie-section{
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+    }
+    .movie-descritption{
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+    .movie-paragraph{
+        font-size: 10px;
+    } */
 }

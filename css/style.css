@@ -341,3 +341,50 @@
     font-size: 20px;
     color: #479e41;
 }
+/* Page 4 */
+.movie-section{
+    max-width: 1170px;
+    width: 100%;
+    /* height: 650px; */
+    height: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster-info{
+ display: flex;
+}
+.poster-image{
+    /* max-width: 350px; */
+    width: 100%;
+}
+.acc-poster{
+    width: 450px;
+    width: 100%;
+    height: auto;
+}
+.movie-info{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4f68e3;
+    font-family: 'Libre Baskerville', serif;
+}
+.movie-comment{
+    color: #6a646e;
+}
+.movie-description{
+    margin-left: 20px;
+    max-width: 800px;
+}
+.movie-title{
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    /* margin-bottom: 10px; */
+}
+.movie-paragraph{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+}
