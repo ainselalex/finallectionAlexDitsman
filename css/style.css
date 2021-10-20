@@ -1,4 +1,11 @@
 /* header */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .header {
     width: 100%;
     height: 324px;
@@ -8,11 +15,17 @@
 }
 
 .header-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
     height: 60px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     position: fixed;
 }
@@ -23,9 +36,16 @@
     height: 50px;
 }
 .ul-li{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .nav-li{
     margin-right: 40px;
@@ -44,9 +64,16 @@
     width: 100%;
     height: 280px;
     margin-left: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .title-1{
     font-size: 30px;
@@ -80,9 +107,16 @@
     margin-right: auto;
 }
 .section1-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
 }
 .title1{
@@ -110,18 +144,26 @@
     height: 350px;
 }
 .images{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: center;
 }
 .image1{
     max-width: 350px;
     width: 100%;
     height: 400px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .image1:hover{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .image-text{
     margin-top: 5px;
@@ -147,13 +189,22 @@
     margin-right: auto;
     /* max-width: 1170px; */
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .footer-ul{
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .footer-li{
     margin-bottom: 10px;
@@ -194,9 +245,15 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .end-paragraph{
     margin-left: 220px;
@@ -215,10 +272,14 @@
     margin-right: 200px;
 }
 .logo-foot{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .logo-foot:hover{
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 /* second page */
 .page2-section{
@@ -229,20 +290,33 @@
     margin-right: auto;
 }
 .ach-image{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 30px;
 }
 .ach-logo{
     max-width: 400px;
     width: 100%;
     height: auto;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .ach-logo:hover{
-    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
 }
 .ach-p{
     font-size: 22px;
@@ -274,6 +348,8 @@
     margin-bottom: 10px;
 }
 .page2-map{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .map-image{
@@ -319,8 +395,11 @@
 }
 
 .games-images{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 10px;
     text-align: center;
 }
@@ -328,10 +407,14 @@
     max-width: 250px;
     width: 100%;
     height: 350px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .cover-resolution:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .games-titles{
     font-size: 18px;
@@ -353,6 +436,8 @@
 }
 
 .poster-info{
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
 }
 .poster-image{
@@ -363,16 +448,24 @@
     width: 450px;
     width: 100%;
     height: auto;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .acc-poster:hover{
-    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
 }
 .online{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .online:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .movie-info{
     margin-top: 10px;
