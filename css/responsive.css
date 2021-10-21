@@ -40,9 +40,24 @@
     font-size: 20px;
     text-align: center;
   }
+  /* checking burger */
   .navigation-h {
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .ul-li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 78px;
     display: none;
   }
+  .navigation-h.click{
+    display: block;
+  }
+
+  /* cchch */
   .section1-paragraph {
     font-size: 12px;
     text-align: center;
