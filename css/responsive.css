@@ -25,6 +25,14 @@
         width: 100%;
         height: auto;
     }
+    .contact-form{
+        max-width: 900px;
+        width: 100%;
+    }
+    .text-field{
+        max-width: 500px;
+        width: 100%;
+    }
 }
 
 
@@ -98,7 +106,29 @@
     .movie-paragraph{
         font-size: 11px;
     }
+    .contact-form{
+        max-width: 700px;
+        width: 100%;
+    }
+    .text-field{
+        max-width: 300px;
+        width: 100%;
+    }
 
+}
+@media (max-width: 650px){
+    .contact-section{
+        text-align: center;
+    }
+    .contact-form{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-div{
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 500px){
@@ -113,17 +143,4 @@
     .footer2{
         background-repeat: repeat;
     }
-    /* .movie-section{
-        max-width: 350px;
-        width: 100%;
-        height: auto;
-    }
-    .movie-descritption{
-        max-width: 300px;
-        width: 100%;
-        height: auto;
-    }
-    .movie-paragraph{
-        font-size: 10px;
-    } */
 }
