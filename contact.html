@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="js/script.js">
+    <script src="/js/script.js"></script>
     <title>Assassin's Creed Contact</title>
   </head>
 
@@ -75,10 +75,10 @@
           </a>
         </div>
         <div class="header-nav">
-          <nav class="navigation-h">
+          <nav class="navigation-h click" id="navigation">
             <ul class="ul-li">
               <li class="nav-li">
-                <a class="nav-font" href="index.html">Home</a>
+                <a class="nav-font active" href="index.html">Home</a>
               </li>
               <li class="nav-li">
                 <a class="nav-font" href="history.html">History</a>
@@ -90,13 +90,15 @@
                 <a class="nav-font" href="movie.html">Movie</a>
               </li>
               <li class="nav-li">
-                <a class="nav-font active" href="contact.html">Contact Us</a>
+                <a class="nav-font" href="#">Contact Us</a>
               </li>
             </ul>
           </nav>
-          <a class="burger" href="#">
-            <i class="fa fa-bars"></i>
-          </a>
+          <div class="burger" id="burger">
+            <!-- <a class="burger" href="#" id="burger"> -->
+              <i class="fa fa-bars"></i>
+            <!-- </a> -->
+          </div>
         </div>
       </div>
       <div class="title-header">
